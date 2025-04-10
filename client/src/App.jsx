@@ -1,22 +1,29 @@
 // src/App.jsx
 import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
+import MainLayout from './layouts/MainLayout';
 import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import ServicesPage from './pages/ServicesPage';
+import ContactPage from './pages/ContactPage';
+import TermsModal from './components/TermsModal';
 // Optional: Import a basic CSS file if you have one
 // import './App.css';
 
 function App() {
   return (
-    <div>
-    
-      {/* You might replace this div with a Layout component later */}
+    <HelmetProvider>
+      <TermsModal />
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        {/* Add more routes here */}
-        {/* Example for a 404 page */}
-        {/* <Route path="*" element={<NotFoundPage />} /> */}
+        <Route path="/" element={<MainLayout />}>
+          <Route index element={<HomePage />} />
+          <Route path="about" element={<AboutPage />} />
+          <Route path="services" element={<ServicesPage />} />
+          <Route path="contact" element={<ContactPage />} />
+        </Route>
       </Routes>
-    </div>
+    </HelmetProvider>
   );
 }
 

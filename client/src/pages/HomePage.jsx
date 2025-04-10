@@ -1,13 +1,25 @@
 // src/pages/HomePage.jsx
 import React from 'react';
+import Hero from '../components/Hero';
+import About from '../components/About';
+import ChooseUs from '../components/ChooseUs';
+import Process from '../components/Process';
+import ServicesTabs from '../components/ServicesTabs';
+import CounterStats from '../components/CounterStats';
+import ComplaintData from '../components/ComplaintData';
 
-function HomePage() {
+const HomePage = () => {
   return (
-    <div>
-      <h1 className='text-red-300'>Welcome to MoneyVenture!</h1>
-      <p>This is the home page.</p>
+    <div className="pt-24">
+      <Hero />
+      <ComplaintData />
+      <About />
+      <ChooseUs />
+      <Process />
+      <ServicesTabs />
+      <CounterStats />
     </div>
   );
-}
+};
 
 export default HomePage;
