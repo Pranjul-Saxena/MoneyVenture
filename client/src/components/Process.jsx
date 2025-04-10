@@ -22,7 +22,7 @@ const Process = () => {
 
         <div className="max-w-4xl mx-auto">
           <img
-            src="/assets/img/PHOTO-2022-09-26-15-23-41-1.jpg"
+            src="/PHOTO-2022-09-26-15-23-41-1.jpg"
             alt="Our Process Diagram"
             className="w-full h-auto rounded-lg shadow-lg"
           />

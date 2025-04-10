@@ -80,21 +80,21 @@ const Hero = () => {
 
       {/* Stats Section - Adjusted for better positioning */}
       {/* Using absolute positioning but ensuring enough padding was added to the container above */}
-      <div className="absolute bottom-0 left-0 right-0 bg-white/10 backdrop-blur-md py-6 sm:py-8 z-20"> {/* Increased blur and z-index */}
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="absolute bottom-0 left-0 right-0 bg-white/10 backdrop-blur-md py-3 sm:py-6 z-20"> {/* Increased blur and z-index */}
+        <div className="container mx-auto px-4 sm:px-2 lg:px-8">
           {/* Grid layout remains responsive */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8">
             {/* Added subtle hover effect to stat items */}
             <div className="text-center transition-transform duration-300 transform hover:scale-105">
-              <div className="text-3xl sm:text-4xl font-bold text-white mb-1 sm:mb-2">10+</div>
+              <div className="text-2xl sm:text-3xl font-bold text-white mb-1 sm:mb-2">10+</div>
               <div className="text-sm sm:text-base text-gray-200">Years Experience</div>
             </div>
             <div className="text-center transition-transform duration-300 transform hover:scale-105">
-              <div className="text-3xl sm:text-4xl font-bold text-white mb-1 sm:mb-2">5000+</div>
+              <div className="text-2xl sm:text-3xl font-bold text-white mb-1 sm:mb-2">5000+</div>
               <div className="text-sm sm:text-base text-gray-200">Happy Clients</div>
             </div>
             <div className="text-center transition-transform duration-300 transform hover:scale-105">
-              <div className="text-3xl sm:text-4xl font-bold text-white mb-1 sm:mb-2">24/7</div>
+              <div className="text-2xl sm:text-3xl font-bold text-white mb-1 sm:mb-2">24/7</div>
               <div className="text-sm sm:text-base text-gray-200">Customer Support</div>
             </div>
           </div>

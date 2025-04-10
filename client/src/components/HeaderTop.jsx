@@ -19,11 +19,11 @@ const HeaderTop = () => {
               +91-7770978090
             </a>
             <a
-              href="mailto:fincorpventure@gmail.com"
+              href="mailto:moneyventure@gmail.com"
               className="text-sm hover:text-gray-200 transition-colors"
             >
               <i className="fas fa-envelope mr-2" />
-              fincorpventure@gmail.com
+              moneyventure@gmail.com
             </a>
           </div>
         </div>

@@ -10,7 +10,7 @@ import ComplaintData from '../components/ComplaintData';
 
 const HomePage = () => {
   return (
-    <div className="pt-24">
+    <div className="pt-20">
       <Hero />
       <ComplaintData />
       <About />

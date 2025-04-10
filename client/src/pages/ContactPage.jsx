@@ -65,10 +65,10 @@ const ContactPage = () => {
                       <h4 className="font-semibold">Email</h4>
                       <p className="text-gray-600">
                         <a
-                          href="mailto:fincorpventure@gmail.com"
+                          href="mailto:moneyventure@gmail.com"
                           className="hover:text-primary transition-colors"
                         >
-                          fincorpventure@gmail.com
+                        moneyventure@gmail.com
                         </a>
                       </p>
                     </div>

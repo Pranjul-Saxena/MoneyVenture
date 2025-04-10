@@ -25,7 +25,7 @@ const AboutPage = () => {
             <div className="space-y-6">
               <h3 className="text-2xl font-bold text-gray-800">Who We Are</h3>
               <p className="text-gray-600 leading-relaxed">
-                Venture Fincorp is a leading financial services company dedicated to providing
+                Money Venture is a leading financial services company dedicated to providing
                 exceptional investment solutions and market research. With years of experience
                 in the financial industry, we have built a reputation for delivering reliable
                 and innovative services to our clients.

@@ -12,7 +12,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-6">
               <div className="bg-white text-[#1a237e] w-10 h-10 rounded-full flex items-center justify-center font-bold text-xl">
-                M
+                MV
               </div>
               <span className="text-xl font-bold text-white">MoneyVenture</span>
             </div>
@@ -162,10 +162,10 @@ const Footer = () => {
                   <i className="fas fa-envelope text-white" />
                 </div>
                 <a
-                  href="mailto:fincorpventure@gmail.com"
+                  href="mailto:moneyventure@gmail.com"
                   className="text-gray-200 hover:text-white transition-colors"
                 >
-                  fincorpventure@gmail.com
+                moneyventure@gmail.com
                 </a>
               </li>
             </ul>
@@ -174,7 +174,7 @@ const Footer = () => {
 
         <div className="border-t border-white/10 mt-12 pt-8 text-center">
           <p className="text-gray-200">
-            © {currentYear} Venture Fincorp. All rights reserved.
+            © {currentYear} Money Venture. All rights reserved.
           </p>
         </div>
       </div>
