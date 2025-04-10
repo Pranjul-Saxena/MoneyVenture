@@ -6,12 +6,21 @@
 @tailwind utilities;
 
 @layer base {
-  html {
+  * {
+    @apply box-border;
+  }
+
+  html, body {
+    @apply overflow-x-hidden w-full;
     scroll-behavior: smooth;
   }
   
   body {
-    @apply font-sans text-gray-800 bg-white;
+    @apply font-sans text-gray-800 bg-white min-h-screen;
+  }
+
+  #root {
+    @apply flex flex-col min-h-screen w-full overflow-x-hidden;
   }
 }
 
@@ -33,6 +42,10 @@
   }
   
   .container {
-    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+    @apply w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .mobile-safe-padding {
+    @apply px-4 sm:px-6 lg:px-8;
   }
 }
