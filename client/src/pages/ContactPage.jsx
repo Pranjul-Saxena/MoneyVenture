@@ -36,9 +36,9 @@ const ContactPage = () => {
                       <i className="fas fa-map-marker-alt" />
                     </div>
                     <div>
-                      <h4 className="font-semibold">Office Address</h4>
+                      <h4 className="font-semibold">Contact Info</h4>
                       <p className="text-gray-600">
-                        603 6th floor, shagun arcade, vijay nagar, Indore 452010
+                        203 1st floor, R.G. arcade, Rajeev nagar, Dewas 442003
                       </p>
                     </div>
                   </div>
@@ -50,8 +50,8 @@ const ContactPage = () => {
                     <div>
                       <h4 className="font-semibold">Phone</h4>
                       <p className="text-gray-600">
-                        <a href="tel:+917770978090" className="hover:text-primary transition-colors">
-                          +91-7770978090
+                        <a href="tel:+919752179825" className="hover:text-primary transition-colors">
+                          +91-9752179825
                         </a>
                       </p>
                     </div>

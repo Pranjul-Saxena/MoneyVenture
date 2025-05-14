@@ -10,7 +10,7 @@ const ServicesPage = () => {
 
   return (
     <div className="pt-24">
-      <section className="py-16 bg-white">
+      <section id='service-block' className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div
             ref={ref}

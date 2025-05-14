@@ -11,6 +11,7 @@ import ComplaintData from '../components/ComplaintData';
 const HomePage = () => {
   return (
     <div className="pt-20">
+    <section id="home" className="bg-white"></section>
       <Hero />
       <ComplaintData />
       <About />

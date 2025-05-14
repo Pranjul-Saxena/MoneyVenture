@@ -8,12 +8,14 @@ import AboutPage from './pages/AboutPage';
 import ServicesPage from './pages/ServicesPage';
 import ContactPage from './pages/ContactPage';
 import TermsModal from './components/TermsModal';
+import ScrollToTop from './components/ScrollToTop';
 // Optional: Import a basic CSS file if you have one
 // import './App.css';
 
 function App() {
   return (
     <HelmetProvider>
+    <ScrollToTop />
       <TermsModal />
       <Routes>
         <Route path="/" element={<MainLayout />}>

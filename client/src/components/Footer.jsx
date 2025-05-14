@@ -55,6 +55,11 @@ const Footer = () => {
               <li>
                 <Link
                   to="/"
+                  onClick={() => {
+                    if (location.pathname === '/') {
+                      window.scrollTo({ top: 0, behavior: 'smooth' }); // Force scroll
+                    }
+                  }}
                   className="text-gray-200 hover:text-white transition-colors flex items-center"
                 >
                   <i className="fas fa-chevron-right mr-2 text-sm"></i>
@@ -64,6 +69,11 @@ const Footer = () => {
               <li>
                 <Link
                   to="/about"
+                  onClick={() => {
+                    if (location.pathname === '/about') {
+                      window.scrollTo({ top: 0, behavior: 'smooth' }); // Force scroll
+                    }
+                  }}
                   className="text-gray-200 hover:text-white transition-colors flex items-center"
                 >
                   <i className="fas fa-chevron-right mr-2 text-sm"></i>
@@ -73,6 +83,11 @@ const Footer = () => {
               <li>
                 <Link
                   to="/services"
+                  onClick={() => {
+                    if (location.pathname === '/services') {
+                      window.scrollTo({ top: 0, behavior: 'smooth' }); // Force scroll
+                    }
+                  }}
                   className="text-gray-200 hover:text-white transition-colors flex items-center"
                 >
                   <i className="fas fa-chevron-right mr-2 text-sm"></i>
@@ -82,6 +97,11 @@ const Footer = () => {
               <li>
                 <Link
                   to="/contact"
+                  onClick={() => {
+                    if (location.pathname === '/contact') {
+                      window.scrollTo({ top: 0, behavior: 'smooth' }); // Force scroll
+                    }
+                  }}
                   className="text-gray-200 hover:text-white transition-colors flex items-center"
                 >
                   <i className="fas fa-chevron-right mr-2 text-sm"></i>
@@ -97,7 +117,12 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <Link
-                  to="/services/equity"
+                  to="/services#service-block"
+                  onClick={() => {
+                    if (location.pathname === '/services') {
+                      window.scrollTo({ top: 0, behavior: 'smooth' }); // Force scroll
+                    }
+                  }}
                   className="text-gray-200 hover:text-white transition-colors flex items-center"
                 >
                   <i className="fas fa-chevron-right mr-2 text-sm"></i>
@@ -106,7 +131,12 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/services/futures"
+                  to="/services"
+                  onClick={() => {
+                    if (location.pathname === '/services') {
+                      window.scrollTo({ top: 0, behavior: 'smooth' }); // Force scroll
+                    }
+                  }}
                   className="text-gray-200 hover:text-white transition-colors flex items-center"
                 >
                   <i className="fas fa-chevron-right mr-2 text-sm"></i>
@@ -115,7 +145,12 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/services/options"
+                  to="/services"
+                  onClick={() => {
+                    if (location.pathname === '/services') {
+                      window.scrollTo({ top: 0, behavior: 'smooth' }); // Force scroll
+                    }
+                  }}
                   className="text-gray-200 hover:text-white transition-colors flex items-center"
                 >
                   <i className="fas fa-chevron-right mr-2 text-sm"></i>
@@ -124,7 +159,12 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/services/commodity"
+                  to="/services"
+                  onClick={() => {
+                    if (location.pathname === '/services') {
+                      window.scrollTo({ top: 0, behavior: 'smooth' }); // Force scroll
+                    }
+                  }}
                   className="text-gray-200 hover:text-white transition-colors flex items-center"
                 >
                   <i className="fas fa-chevron-right mr-2 text-sm"></i>
@@ -143,7 +183,7 @@ const Footer = () => {
                   <i className="fas fa-map-marker-alt text-white" />
                 </div>
                 <span className="text-gray-200">
-                  603 6th floor, shagun arcade, vijay nagar, Indore 452010
+                  203 1st floor, R.G. arcade, Rajeev nagar, Dewas 442003
                 </span>
               </li>
               <li className="flex items-center">
@@ -151,10 +191,10 @@ const Footer = () => {
                   <i className="fas fa-phone text-white" />
                 </div>
                 <a
-                  href="tel:+917770978090"
+                  href="tel:+919752179825"
                   className="text-gray-200 hover:text-white transition-colors"
                 >
-                  +91-7770978090
+                  +91-9752179825
                 </a>
               </li>
               <li className="flex items-center">
@@ -165,7 +205,7 @@ const Footer = () => {
                   href="mailto:moneyventure@gmail.com"
                   className="text-gray-200 hover:text-white transition-colors"
                 >
-                moneyventure@gmail.com
+                  moneyventure@gmail.com
                 </a>
               </li>
             </ul>
