@@ -36,7 +36,7 @@ const TermsModal = () => {
                 <li>Investment in stock or commodity market is subject to high risk.</li>
                 <li>All profit and loss risk is borne by the investor.</li>
                 <li>Please visit our website for detailed terms and conditions before starting services with us.</li>
-                <li>Call us at +91-7770978090</li>
+                <li>Call us at +91-9752179825</li>
               </ol>
             </div>
 
@@ -49,7 +49,7 @@ const TermsModal = () => {
                 <li>शेयर या कमोडिटी बाजार में निवेश उच्च जोखिम के अधीन है।</li>
                 <li>सभी लाभ और हानि का जोखिम निवेशक द्वारा वहन किया जाता है।</li>
                 <li>हमारे साथ सेवाएं शुरू करने से पहले हमारी वेबसाइट पर विस्तृत नियम और शर्तें देखें।</li>
-                <li>हमें +91-7770978090 पर कॉल करें</li>
+                <li>हमें +91-9752179825 पर कॉल करें</li>
               </ol>
             </div>
           </div>
